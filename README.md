@@ -71,6 +71,16 @@ In case of express, server.js file content will be:
 
 ```
 
+With custom node.js application
+
+```js
+    
+    const stream = require('ub-vod/lib/stream');
+    var s = new stream(path);
+    return s.serve(req, res, next);
+
+```
+
 ## Quick Start
 
 ```bash
