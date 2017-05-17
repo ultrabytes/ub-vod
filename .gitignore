@@ -1,0 +1,11 @@
+.idea
+node_modules
+bower_components
+.env
+.tmp
+lib-cov
+*.seed
+*.log
+*.out
+*.pid
+npm-debug.log
